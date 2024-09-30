@@ -7,7 +7,7 @@ describe('blog page', () => {
 
 
         //write a comment on a blog
-        cy.get('[placeholder="Write your opinion"]').type('{enter}good game')
+        cy.get('[placeholder="Write your opinion"]').type('good game{enter}')
 
         //like blog
         cy.get('.container__like').find('img').eq(0).click()
