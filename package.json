@@ -3,5 +3,9 @@
   "version": "1.0.0",
   "devDependencies": {
     "cypress": "^13.14.2"
+  },
+  "dependencies": {
+    "open-google-translator": "^1.0.5",
+    "txtgen": "^3.0.7"
   }
 }
